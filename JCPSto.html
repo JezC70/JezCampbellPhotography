@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Store</title>
+  <style>
+    body {
+      background: #000;
+      color: #fff;
+      font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+      margin: 0;
+    }
+    .menu {
+      display: flex;
+      justify-content: center;
+      background-color: rgb(0, 0, 0);
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    .menu li {
+      margin: 0 20px;
+    }
+    .menu li a {
+      display: block;
+      color: rgb(255, 255, 255);
+      padding: 16px 24px;
+      text-decoration: none;
+      transition: background 0.2s;
+      font-size: 1.25rem;
+      font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+    }
+    .menu li a:hover {
+      color: rgb(236, 140, 84);
+    }
+    .menu li a.active {
+      color: rgb(236, 140, 84);
+      border-bottom: 2px solid rgb(236, 140, 84);
+    }
+    .store-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 32px;
+      max-width: 1200px;
+      margin: 48px auto;
+      padding: 0 16px;
+    }
+    .store-item {
+      background: #111;
+      border-radius: 12px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.18);
+      padding: 24px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .store-item img {
+      width: 100%;
+      max-width: none;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 18px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+      background: #222;
+      display: block;
+    }
+    .store-item h3 {
+      color: rgb(236,140,84);
+      font-weight: 100;
+      margin: 0 0 10px 0;
+      font-size: 1.2rem;
+      font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+    }
+    .store-item p {
+      color: #fff;
+      font-size: 1rem;
+      margin-bottom: 16px;
+      text-align: justify;
+    }
+    .store-item .price {
+      color: rgb(236,140,84);
+      font-size: 1.1rem;
+      margin-bottom: 16px;
+      font-weight: 400;
+    }
+    .store-item button {
+      background: rgb(236,140,84);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 12px 32px;
+      font-size: 1.1rem;
+      font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      transition: background 0.2s;
+    }
+    .store-item button:hover {
+      background: rgb(200, 110, 60);
+    }
+    footer {
+      background: rgb(0, 0, 0);
+      text-align: center;
+      padding: 24px 0;
+      color: rgb(255, 255, 255);
+      font-size: 1rem;
+      margin-top: 40px;
+      box-shadow: 0 -2px 8px rgba(0,0,0,0.04);
+      font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <header style="background: rgb(0, 0, 0); box-shadow: 0 2px 8px rgba(0,0,0,0.04); padding: 0;">
+    <h1 style="color:rgb(255, 255, 255); text-align:center; margin: 50; font-size: 3rem; font-family: helvetica-w01-light, helvetica-w02-light, sans-serif; font-weight: 100;">
+      Jez Campbell Photography
+    </h1>
+    <nav style="margin-top: 40px;">
+      <ul class="menu">
+        <li><a href="JCPHome.html">Home</a></li>
+        <li><a href="JCPArd.html">Ardnamurchan & Sunart</a></li>
+        <li><a href="JCPGle.html">Glen Coe & Rannoch</a></li>
+        <li><a href="JCPSky.html">Skye & Lochalsh</a></li>
+        <li><a href="JCPBio.html">Bio</a></li>
+        <li><a href="JCPCon.html">Contact</a></li>
+        <li><a href="JCPSto.html" class="active">Store</a></li>
+      </ul>
+    </nav>
+  </header>
+<img src="Prints.png" alt="Photography example" style="display:block; margin:40px auto; max-width:60%; height:auto;">
+  <div class="store-gallery">
+  <div class="store-item">
+    <img src="Sanna Bay, Ardnamurchan.jpg" alt="Sanna Bay, Ardnamurchan">
+    <h3>Sanna Bay, Ardnamurchan</h3>
+    <p>A stunning sunset over Sanna Bay, capturing the wild beauty of Ardnamurchan’s coastline.</p>
+    <div class="price">From £25.00</div>
+    <div style="margin-bottom: 16px;">
+      <select style="padding: 8px; border-radius: 6px; border: none; font-size: 1rem; margin-bottom: 8px;">
+        <option value="A4">A4 Print – £25.00</option>
+        <option value="A3">A3 Print – £35.00</option>
+        <option value="A2">A2 Print – £45.00</option>
+        <option value="framed">Framed Print – £65.00</option>
+      </select>
+    </div>
+    <button>Buy Print</button>
+  </div>
+  <div class="store-item">
+    <img src="Milky Way over Shore Cottage.jpg" alt="Milky Way over Shore Cottage">
+    <h3>Milky Way over Shore Cottage</h3>
+    <p>The Milky Way arches over a remote cottage, revealing the magic of Scotland’s night skies.</p>
+    <div class="price">From £25.00</div>
+    <div style="margin-bottom: 16px;">
+      <select style="padding: 8px; border-radius: 6px; border: none; font-size: 1rem; margin-bottom: 8px;">
+        <option value="P1">15 x 10 cm Print – £15.00</option>
+        <option value="P2">30 x 20 cm Print – £25.00</option>
+        <option value="P3">45 x 30 cm Print – £35.00</option>
+        <option value="P4">60 x 40 cm Print – £45.00</option>
+        <option value="PF1">Framed 30 x 20 cm Print – £150.00</option>
+        <option value="PF2">Framed 45 x 30 cm Print – £200.00</option>
+        <option value="PF2">Framed 60 x 40 cm Print – £250.00</option>
+        <option value="PC1">Canvas 45 x 30 cm Print – £100.00</option>
+        <option value="PC2">Canvas 60 x 40 cm Print – £125.00</option>
+      </select>
+    </div>
+    <button>Buy Print</button>
+  </div>
+  <div class="store-item">
+    <img src="Aurora Borealis over the Ardnamurchan Lighthouse.jpg" alt="Aurora Borealis over the Ardnamurchan Lighthouse">
+    <h3>Aurora Borealis over Ardnamurchan Lighthouse</h3>
+    <p>Vivid aurora lights dance above the iconic Ardnamurchan Lighthouse.</p>
+    <div class="price">From £25.00</div>
+    <div style="margin-bottom: 16px;">
+      <select style="padding: 8px; border-radius: 6px; border: none; font-size: 1rem; margin-bottom: 8px;">
+        <option value="A4">A4 Print – £25.00</option>
+        <option value="A3">A3 Print – £35.00</option>
+        <option value="A2">A2 Print – £45.00</option>
+        <option value="framed">Framed Print – £65.00</option>
+      </select>
+    </div>
+    <button>Buy Print</button>
+  </div>
+  <div class="store-item">
+    <img src="Sunset over Loch Sunart, Ardnamurchan, Scotland.jpg" alt="Sunset over Loch Sunart">
+    <h3>Sunset over Loch Sunart</h3>
+    <p>Golden hour over Loch Sunart, a tranquil moment in the Highlands.</p>
+    <div class="price">From £25.00</div>
+    <div style="margin-bottom: 16px;">
+      <select style="padding: 8px; border-radius: 6px; border: none; font-size: 1rem; margin-bottom: 8px;">
+        <option value="A4">A4 Print – £25.00</option>
+        <option value="A3">A3 Print – £35.00</option>
+        <option value="A2">A2 Print – £45.00</option>
+        <option value="framed">Framed Print – £65.00</option>
+      </select>
+    </div>
+    <button>Buy Print</button>
+  </div>
+</body>
+</html>
+<footer style="background: rgb(0, 0, 0); text-align: center; padding: 24px 0; color: rgb(255, 255, 255); font-size: 1rem; margin-top: 40px; box-shadow: 0 -2px 8px rgba(0,0,0,0.04); font-family: helvetica-w01-light, helvetica-w02-light, sans-serif; ;">
+  &copy; 2025 Jez Campbell Photography. All rights reserved.
+</footer>
