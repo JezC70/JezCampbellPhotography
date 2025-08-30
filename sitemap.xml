@@ -1,45 +1,47 @@
-<?xml version="1.0" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap-image/1.1" encoding="utf-8">
-  <url>
-    <loc>https://www.jezcampbellphotography.com/bio/</loc>
-  </url>
-  <url>
-    <loc>https://www.jezcampbellphotography.com/contact/</loc>
-  </url>
-  <url>
-    <loc>https://www.jezcampbellphotography.com/glencoe/</loc>
-  </url>
-  <url>
-    <loc>https://www.jezcampbellphotography.com/product-page/buachaille-etive-mor-framed-print/</loc>
-  </url>
-  <url>
-    <loc>https://www.jezcampbellphotography.com/product-page/cuillin-rainbow-framed-print/</loc>
-  </url>
-  <url>
-    <loc>https://www.jezcampbellphotography.com/product-page/framed-photo-paper-poster/</loc>
-  </url>
-  <url>
-    <loc>https://www.jezcampbellphotography.com/product-page/frozen-tree-rannoch-moor-framed-print/</loc>
-  </url>
-  <url>
-    <loc>https://www.jezcampbellphotography.com/product-page/glendrian-infrared-framed-print/</loc>
-  </url>
-  <url>
-    <loc>https://www.jezcampbellphotography.com/product-page/kilchoan-framed-print/</loc>
-  </url>
-  <url>
-    <loc>https://www.jezcampbellphotography.com/product-page/rannoch-moor-in-winter-framed-print/</loc>
-  </url>
-  <url>
-    <loc>https://www.jezcampbellphotography.com/product-page/rum-from-sanna-framed-print/</loc>
-  </url>
-  <url>
-    <loc>https://www.jezcampbellphotography.com/product-page/sunrise-at-buachaille-framed-print/</loc>
-  </url>
-  <url>
-    <loc>https://www.jezcampbellphotography.com/product-page/western-sunset-framed-print/</loc>
-  </url>
-  <url>
-    <loc>https://www.jezcampbellphotography.com/skye-1/</loc>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://jezcampbellphotography.com/</loc>
+  <lastmod>2025-08-30T12:45:06+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://jezcampbellphotography.com/index.html</loc>
+  <lastmod>2025-08-30T12:45:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jezcampbellphotography.com/Ardnamurchan.html</loc>
+  <lastmod>2025-08-30T12:45:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jezcampbellphotography.com/Glencoe.html</loc>
+  <lastmod>2025-08-30T12:45:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jezcampbellphotography.com/Skye.html</loc>
+  <lastmod>2025-08-30T12:45:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jezcampbellphotography.com/Bio.html</loc>
+  <lastmod>2025-08-30T12:45:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jezcampbellphotography.com/Contact.html</loc>
+  <lastmod>2025-08-30T12:45:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
